@@ -1,0 +1,41 @@
+.timeline-view-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 16px;
+}
+
+.timeline-responsive-container {
+  width: 100%;
+  max-width: 1120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-journey-heading {
+  font-family: 'Roboto';
+  font-size: 16px;
+  text-align: center;
+}
+
+span {
+  color: #2b237c;
+  font-size: 26px;
+}
+
+@media screen and (max-width: 767px) {
+  .ccbp-heading {
+    font-size: 22px;
+  }
+
+  .my-journey-heading {
+    font-size: 14px;
+  }
+
+  .timeline-view-container {
+    padding: 12px 8px;
+  }
+}

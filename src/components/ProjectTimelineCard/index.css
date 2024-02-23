@@ -1,0 +1,26 @@
+.project-image {
+  width: 100%;
+}
+
+.calendar-icon {
+  height: 18px;
+  width: 18px;
+  margin-right: 4px;
+}
+
+.project-link {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: #0967d2;
+  outline: none;
+  cursor: pointer;
+  padding-left: 0px;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+  .project-link {
+    font-size: 12px;
+  }
+}
